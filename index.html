@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="./js/bootstrap.min.js"></script>
+  <title>Frontend Mentor | Results summary component</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="main">
+    <div id="left">
+      <div id="leftTitle">
+        <h1>Your Result</h1>
+      </div>
+      <div id="leftScore">
+        <div id="scoreCircle">
+          <h2 style="font-size: 60px;">79</h2>
+          <h5 style="opacity: 50%;">of 100</h5>
+        </div>
+      </div>
+      <div id="leftResult">
+        <h3>Great</h3>
+      </div>
+      <div id="leftDesc">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat sunt</p>
+      </div>
+    </div>
+    <div id="right">
+      <div id="rightTitle">
+        <h2>Summary</h2>
+      </div>
+      <div id="rightScores">
+        <div class="alert alert-danger" role="alert">
+          <img src="./assets/images/icon-reaction.svg" alt="">
+          
+          <p class="summaryTitles">Reaction</p>
+          <p class="summaryPoints"><strong>72</strong> / 100</p>
+        </div>
+        <div class="alert alert-warning" role="alert">
+          <img src="./assets/images/icon-memory.svg" alt="">
+          
+          <p class="summaryTitles">Memory</p>
+          <p class="summaryPoints"><strong>72</strong> / 100</p>
+        </div>
+        <div class="alert alert-success" role="alert">
+          <img src="./assets/images/icon-verbal.svg" alt="">
+          
+          <p class="summaryTitles">Verbal</p>
+          <p class="summaryPoints"><strong>72</strong> / 100</p>
+        </div>
+        <div class="alert alert-primary" role="alert">
+          <img src="./assets/images/icon-visual.svg" alt="">
+          
+          <p class="summaryTitles">Visual</p>
+          <p class="summaryPoints"><strong>72</strong> / 100</p>
+        </div>
+      </div>
+      <div id="rightButton">
+        <button class="btn btn-primary">Continue</button>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
